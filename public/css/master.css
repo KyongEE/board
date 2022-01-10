@@ -1,5 +1,3 @@
-/* public/css/master.css */
-
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -11,7 +9,7 @@ body {
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis; /* 1 */
+  text-overflow: ellipsis;
 }
 
 .board-table {
@@ -22,12 +20,25 @@ body {
   width: 100px;
 }
 
-.post-body{
-  white-space: pre-line; /* 2 */
+.post-body,
+.comment-text {
+  white-space: pre-line;
 }
 .post-info{
   font-size: 0.8em;
 }
+
 .user-form {
   width: 400px;
+}
+
+.post-index-tool {
+  max-width: 450px;
+}
+.post-index-tool input[type='text']{
+  max-width: 130px;
+}
+
+.highlighted {
+  background-color: yellow;
 }
