@@ -1,5 +1,3 @@
-// models/Post.js
-
 var mongoose = require('mongoose');
 var Counter = require('./Counter');
 
